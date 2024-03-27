@@ -11,6 +11,14 @@ for x in [1,2,3,4,5,6,7,8,9,10]:
 
 print(sum)
 
+bundleDict = {
+    'daily_discover_main': 'http://mixer-dd-main.recommend.live-test.shopee.io/recommend',
+    'product_detail_page': 'http://mixer-pdp-main.recommend.live-test.shopee.io/recommend?'
+}
+
+for key, value in bundleDict.items():
+    print(key, value)
+
 #如果list长度比较长， 不能都写出来，可以使用range函数来生成一个整数序列，然后通过list函数转为list
 
 sum1 = 0
